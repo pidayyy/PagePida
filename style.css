@@ -1,0 +1,109 @@
+/* --- GENERAL STYLE --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff6fa; /* soft pink background */
+    color: #444;
+}
+
+/* --- HEADER --- */
+header {
+    background-color: #ffb6c9; /* soft pink */
+    text-align: center;
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+/* --- NAVIGATION MENU --- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d14e73;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #ffb6c9;
+    color: white;
+}
+
+/* --- MAIN CONTENT (Flexbox layout) --- */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* Section & Aside card style */
+section, aside {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 48%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SIDEBAR STYLING */
+.sidebar {
+    background-color: #ffe9f0;
+    border: 2px solid #ffb6c9;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+
+/* Foto profil */
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 6px solid #ffb6c9;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #ffe2ec;
+    border-radius: 40px 40px 0 0;
+}
+
+/* Tombol sosial media */
+.social-buttons a {
+    text-decoration: none;
+    background-color: #ff9dbb;
+    padding: 8px 14px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-buttons a:hover {
+    background-color: #e76892;
+}
+
+/* COMMENT EXAMPLE */
+/* Mengatur layout utama agar sejajar (Flexbox) */
